@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  background: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 400px;
+  /* height: 100vh; */
+  margin: auto;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  margin-top: 32px;
+  align-items: right;
+  background: whitesmoke;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.header {
+  text-align: center;
+  margin: 13px 8px;
+  overflow: hidden;
+}
+
+.balance {
+  margin: 0 10px;
+}
+
+.balance h3,
+.balance h1 {
+  margin: 0;
+}
+
+.income-container {
+  background: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+.income-expense {
+  padding: 20px;
+  margin: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.income-expense .bar {
+  border: 1px solid grey;
+  max-height: 70%;
+  margin: 16px 0;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+.income h2 {
+  margin-bottom: 0;
+}
+
+.expense-history {
+  margin-top: 15px;
+}
+.expense-history hr {
+  margin-top: 15px;
+  color: lightgrey;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 5px;
+  margin-top: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.transaction {
+  margin-top: 15px;
+}
+
+.transtion-form {
+  margin-top: 15px;
+}
+
+.transtion-form input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.transtion-form button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: lightslategray;
+}
